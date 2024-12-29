@@ -1,0 +1,16 @@
+name = "calendar"
+main = "src/worker.js"
+compatibility_date = "2024-11-11"
+workers_dev = false
+preview_urls = false
+
+[[routes]]
+pattern = "workers.tablerus.es/calendar/*"
+zone_name = "tablerus.es"
+
+[placement]
+mode = "smart"
+
+[[kv_namespaces]]
+id = "517a67ba80cc4502a95f28788570251f"
+binding = "CALENDAR_DATA"
